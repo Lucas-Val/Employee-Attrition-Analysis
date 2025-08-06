@@ -77,3 +77,5 @@ confusionMatrix(data = df$predicted, reference = df$actual, positive = "1")
 df$STATUS_BINARY <- as.factor(df$STATUS_BINARY)
 rf_df <- df[, c("STATUS_BINARY", "gender_full", "length_of_service", "department_name")]
 set.seed(123)
+
+# Analysis still underway
