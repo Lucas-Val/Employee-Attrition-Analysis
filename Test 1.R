@@ -1,9 +1,6 @@
-# -------------------------------------------------------
 # Project: Employee Attrition Analysis
 # Purpose: Explore and model employee attrition patterns
-# Author: Lucas Valpreda
-# Date: 04/08/2025
-# -------------------------------------------------------
+
 # Load packages
 library(tidyverse)
 library(ggplot2)
