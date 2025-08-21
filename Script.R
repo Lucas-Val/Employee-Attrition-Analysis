@@ -1,4 +1,3 @@
-
 # Load packages
 library(tidyverse)
 library(ggplot2)
@@ -6,14 +5,14 @@ library(dplyr)
 library(caret)
 library(corrplot)
 library(readr)
-# 1. Getting to Know the Data
+# Getting to Know the Data
 df <- read_csv("Termination_Data.csv")
 head(df)
 str(df)
 summary(df)
 names(df)
 
-# 2. Attrition status breakdown
+# Attrition status breakdown
 table(df$STATUS)
 round(prop.table(table(df$STATUS)) * 100, 1)
 library(ggplot2)
