@@ -1,5 +1,3 @@
-# Project: Employee Attrition Analysis
-# Purpose: Explore and model employee attrition patterns
 
 # Load packages
 library(tidyverse)
