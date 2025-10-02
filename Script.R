@@ -6,7 +6,7 @@ library(caret)
 library(corrplot)
 library(readr)
 # Exploring 
-df <- read_csv("Termination_Data.csv")
+df = read_csv("Termination_Data.csv")
 head(df)
 str(df)
 summary(df)
